@@ -22,7 +22,7 @@ export const useUserStore = defineStore('user', {
     const saved = readStorage()
     return {
       userInfo: saved?.userInfo ?? {
-        avatar: '/01.png',
+        avatar: './01.png',
         name: '杨莹莹',
         studentId: '249981042',
         className: '24计科2班',
